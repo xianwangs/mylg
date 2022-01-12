@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	ui "github.com/gizak/termui"
+	ui "github.com/xianwangs/termui"
 
 	"github.com/mehrdadrad/mylg/ripe"
 )

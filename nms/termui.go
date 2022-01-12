@@ -7,7 +7,7 @@ import (
 
 	"github.com/briandowns/spinner"
 
-	ui "github.com/gizak/termui"
+	ui "github.com/xianwangs/termui"
 )
 
 const (

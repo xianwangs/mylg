@@ -3,11 +3,10 @@ module github.com/mehrdadrad/mylg
 go 1.12
 
 require (
-	github.com/briandowns/spinner v1.9.0
+	github.com/briandowns/spinner v1.18.0
 	github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e
 	github.com/fatih/color v1.7.0
 	github.com/geoffgarside/ber v0.0.0-20190912223231-00c19d63973f // indirect
-	github.com/gizak/termui v2.3.0+incompatible
 	github.com/google/gopacket v1.1.17
 	github.com/gorilla/mux v1.7.4
 	github.com/k-sone/snmpgo v3.2.0+incompatible
