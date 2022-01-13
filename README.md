@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mehrdadrad/mylg.svg?branch=master)](https://travis-ci.org/mehrdadrad/mylg) [![Go Report Card](https://goreportcard.com/badge/github.com/mehrdadrad/mylg)](https://goreportcard.com/report/github.com/mehrdadrad/mylg) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mehrdadrad/mylg?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![GORef](https://godoc.org/github.com/mehrdadrad/mylg?status.svg)](https://godoc.org/github.com/mehrdadrad/mylg)
+[![Build Status](https://travis-ci.org/mehrdadrad/mylg.svg?branch=master)](https://travis-ci.org/mehrdadrad/mylg) [![Go Report Card](https://goreportcard.com/badge/github.com/xianwangs/mylg)](https://goreportcard.com/report/github.com/xianwangs/mylg) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mehrdadrad/mylg?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![GORef](https://godoc.org/github.com/xianwangs/mylg?status.svg)](https://godoc.org/github.com/xianwangs/mylg)
 
 ![IMAGE](http://mylg.io/wp-content/uploads/2016/08/logo_mylgio_xxsmall.png)
 ### myLG, Command line Network Diagnostic Tool
@@ -347,8 +347,8 @@ brew install homebrew/dupes/libpcap
 Given that the Go Language compiler (version 1.7 or greater is required) is installed, you can build it with:
 
 ```
-go get github.com/mehrdadrad/mylg
-cd $GOPATH/src/github.com/mehrdadrad/mylg/
+go get github.com/xianwangs/mylg
+cd $GOPATH/src/github.com/xianwangs/mylg/
 go build mylg.go
 ```
 

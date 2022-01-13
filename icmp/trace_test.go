@@ -3,8 +3,8 @@ package icmp_test
 import (
 	"testing"
 
-	"github.com/mehrdadrad/mylg/cli"
-	"github.com/mehrdadrad/mylg/icmp"
+	"github.com/xianwangs/mylg/cli"
+	"github.com/xianwangs/mylg/icmp"
 )
 
 func TestNewTrace(t *testing.T) {

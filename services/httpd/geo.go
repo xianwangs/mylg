@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/mehrdadrad/mylg/ripe"
+	"github.com/xianwangs/mylg/ripe"
 )
 
 func getGeo(w http.ResponseWriter, r *http.Request) {

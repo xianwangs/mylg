@@ -1,9 +1,10 @@
 package lg_test
 
 import (
-	"github.com/mehrdadrad/mylg/lg"
-	"gopkg.in/h2non/gock.v0"
 	"testing"
+
+	"github.com/xianwangs/mylg/lg"
+	"gopkg.in/h2non/gock.v0"
 )
 
 func TestGetDefaultNode(t *testing.T) {

@@ -1,9 +1,10 @@
 package ripe_test
 
 import (
-	"github.com/mehrdadrad/mylg/ripe"
-	"gopkg.in/h2non/gock.v0"
 	"testing"
+
+	"github.com/xianwangs/mylg/ripe"
+	"gopkg.in/h2non/gock.v0"
 )
 
 func TestRipePrefixAPISCode(t *testing.T) {

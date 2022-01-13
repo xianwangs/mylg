@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/mehrdadrad/mylg/cli"
-	"github.com/mehrdadrad/mylg/icmp"
+	"github.com/xianwangs/mylg/cli"
+	"github.com/xianwangs/mylg/icmp"
 )
 
 // ping tries to ping a host (count = 1)

@@ -20,7 +20,7 @@ import (
 	"github.com/fatih/color"
 	"github.com/olekukonko/tablewriter"
 
-	"github.com/mehrdadrad/mylg/cli"
+	"github.com/xianwangs/mylg/cli"
 )
 
 // Packet holds all layers information

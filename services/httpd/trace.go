@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/mehrdadrad/mylg/cli"
-	"github.com/mehrdadrad/mylg/icmp"
+	"github.com/xianwangs/mylg/cli"
+	"github.com/xianwangs/mylg/icmp"
 )
 
 // initTrace returns an id and creates a gorouting

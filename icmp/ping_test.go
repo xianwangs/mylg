@@ -1,10 +1,11 @@
 package icmp_test
 
 import (
-	"github.com/mehrdadrad/mylg/cli"
-	"github.com/mehrdadrad/mylg/icmp"
 	"net"
 	"testing"
+
+	"github.com/xianwangs/mylg/cli"
+	"github.com/xianwangs/mylg/icmp"
 )
 
 func TestSetIP(t *testing.T) {

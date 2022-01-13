@@ -12,8 +12,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mehrdadrad/mylg/data"
 	"github.com/olekukonko/tablewriter"
+	"github.com/xianwangs/mylg/data"
 )
 
 const (

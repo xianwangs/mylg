@@ -3,13 +3,14 @@ package httpd
 
 import (
 	"fmt"
-	"github.com/gorilla/mux"
-	"github.com/rakyll/statik/fs"
 	"net/http"
 
-	"github.com/mehrdadrad/mylg/cli"
+	"github.com/gorilla/mux"
+	"github.com/rakyll/statik/fs"
+
+	"github.com/xianwangs/mylg/cli"
 	// statik is single binary including all web stuff
-	_ "github.com/mehrdadrad/mylg/services/dashboard/statik"
+	_ "github.com/xianwangs/mylg/services/dashboard/statik"
 )
 
 type TTracker struct {

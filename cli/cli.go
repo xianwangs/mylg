@@ -4,14 +4,15 @@ package cli
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/chzyer/readline"
-	"github.com/mehrdadrad/mylg/banner"
 	"io"
 	"io/ioutil"
 	"net/http"
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/chzyer/readline"
+	"github.com/xianwangs/mylg/banner"
 )
 
 const usage = `Usage:

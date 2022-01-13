@@ -3,7 +3,6 @@ package peeringdb
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/olekukonko/tablewriter"
 	"io/ioutil"
 	"net/http"
 	"os"
@@ -11,7 +10,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/mehrdadrad/mylg/cli"
+	"github.com/olekukonko/tablewriter"
+
+	"github.com/xianwangs/mylg/cli"
 )
 
 const (

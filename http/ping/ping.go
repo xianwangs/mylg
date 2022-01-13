@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mehrdadrad/mylg/cli"
+	"github.com/xianwangs/mylg/cli"
 )
 
 var stdout *os.File

@@ -3,7 +3,7 @@ package ns_test
 import (
 	"testing"
 
-	"github.com/mehrdadrad/mylg/ns"
+	"github.com/xianwangs/mylg/ns"
 )
 
 var r *ns.Request

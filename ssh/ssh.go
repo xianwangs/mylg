@@ -4,15 +4,16 @@ package ssh
 
 import (
 	"fmt"
-	"golang.org/x/crypto/ssh"
-	"golang.org/x/crypto/ssh/terminal"
 	"io/ioutil"
 	"net"
 	"os/user"
 	"strings"
 	"time"
 
-	"github.com/mehrdadrad/mylg/cli"
+	"golang.org/x/crypto/ssh"
+	"golang.org/x/crypto/ssh/terminal"
+
+	"github.com/xianwangs/mylg/cli"
 )
 
 // SSH represents SSH properties

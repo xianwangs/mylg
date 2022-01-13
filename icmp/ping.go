@@ -4,9 +4,6 @@ package icmp
 import (
 	"errors"
 	"fmt"
-	"golang.org/x/net/icmp"
-	"golang.org/x/net/ipv4"
-	"golang.org/x/net/ipv6"
 	"math/rand"
 	"net"
 	"os"
@@ -17,7 +14,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/mehrdadrad/mylg/cli"
+	"golang.org/x/net/icmp"
+	"golang.org/x/net/ipv4"
+	"golang.org/x/net/ipv6"
+
+	"github.com/xianwangs/mylg/cli"
 )
 
 // packet represents ping packet
