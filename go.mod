@@ -12,12 +12,12 @@ require (
 	github.com/google/gopacket v1.1.19
 	github.com/gorilla/mux v1.7.4
 	github.com/k-sone/snmpgo v3.2.0+incompatible
-	github.com/maruel/panicparse v1.3.0 // indirect
-	github.com/mattn/go-runewidth v0.0.8 // indirect
+	github.com/maruel/panicparse v1.6.1 // indirect
+	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/miekg/dns v1.1.27
-	github.com/mitchellh/go-wordwrap v1.0.0 // indirect
+	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
 	github.com/nbio/st v0.0.0-20140626010706-e9e8d9816f32 // indirect
-	github.com/nsf/termbox-go v0.0.0-20200204031403-4d2b513ad8be // indirect
+	github.com/nsf/termbox-go v1.1.1 // indirect
 	github.com/olekukonko/tablewriter v0.0.4
 	github.com/rakyll/statik v0.1.6
 	github.com/xianwangs/termui v0.0.0-20220112153651-3fe28d64999a
