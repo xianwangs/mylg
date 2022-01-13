@@ -9,7 +9,7 @@ require (
 	github.com/chzyer/test v0.0.0-20210722231415-061457976a23 // indirect
 	github.com/fatih/color v1.7.0
 	github.com/geoffgarside/ber v0.0.0-20190912223231-00c19d63973f // indirect
-	github.com/google/gopacket v1.1.17
+	github.com/google/gopacket v1.1.19
 	github.com/gorilla/mux v1.7.4
 	github.com/k-sone/snmpgo v3.2.0+incompatible
 	github.com/maruel/panicparse v1.3.0 // indirect
