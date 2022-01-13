@@ -101,6 +101,16 @@ type HopResp struct {
 	whois   Whois
 }
 
+type HopRespShadow struct {
+	Num     int         `json:"num"`
+	Hop     string      `json:"hop"`
+	IP      string      `json:"ip"`
+	Elapsed float64     `json:"elapsed"`
+	Last    bool        `json:"last"`
+	Err     error       `json:"err"`
+	Whois   WhoisShadow `json:"whois"`
+}
+
 // ICMPResp represents ICMP response msg
 type ICMPResp struct {
 	typ  int
@@ -119,6 +129,11 @@ type ICMPResp struct {
 type Whois struct {
 	holder string
 	asn    float64
+}
+
+type WhoisShadow struct {
+	Holder string  `json:"holder"`
+	ASN    float64 `json:"asn"`
 }
 
 // Stats represents statistic's fields

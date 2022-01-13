@@ -502,6 +502,20 @@ func (h *HopResp) Marshal() string {
 	)
 }
 
+func (h *HopResp) Shadow() *HopRespShadow {
+	return &HopRespShadow{
+		Num:     h.num,
+		Hop:     h.hop,
+		IP:      h.ip,
+		Elapsed: h.elapsed,
+		Whois: WhoisShadow{
+			Holder: h.whois.holder,
+			ASN:    h.whois.asn,
+		},
+		Last: h.last,
+	}
+}
+
 // routerChange detects if the router changed
 // to another one
 func routerChange(router, b string) bool {
